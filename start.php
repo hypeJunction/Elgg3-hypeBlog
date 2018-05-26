@@ -13,6 +13,7 @@ return function () {
 		elgg_register_plugin_hook_handler('uses:cover', 'object:blog', [\Elgg\Values::class, 'getTrue']);
 		elgg_register_plugin_hook_handler('allow_attachments', 'object:blog', [\Elgg\Values::class, 'getTrue']);
 		elgg_register_plugin_hook_handler('likes:is_likable', 'object:blog', [\Elgg\Values::class, 'getTrue']);
+		elgg_register_plugin_hook_handler('uses:autosave', 'object:blog', [\Elgg\Values::class, 'getTrue']);
 
 		elgg_unextend_view('object/elements/imprint/contents', 'blog/imprint/status');
 	});
