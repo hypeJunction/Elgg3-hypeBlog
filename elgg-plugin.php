@@ -1,6 +1,7 @@
 <?php
 
 return [
+	'bootstrap' => \hypeJunction\Blog\Bootstrap::class,
 	'entities' => [
 		'blog' => [
 			'type' => 'object',
