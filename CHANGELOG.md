@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/hypeJunctionPro/Elgg3-hypeBlog/compare/1.1.0...1.1.1) (2019-06-20)
+
+
+### Bug Fixes
+
+* **fields:** register a handler for blog fields ([f16a254](https://github.com/hypeJunctionPro/Elgg3-hypeBlog/commit/f16a254))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/hypeJunctionPro/Elgg3-hypeBlog/compare/1.0.0...1.1.0) (2018-06-29)
 
