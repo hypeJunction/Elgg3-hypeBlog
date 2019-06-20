@@ -34,6 +34,8 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_plugin_hook_handler('likes:is_likable', 'object:blog', [\Elgg\Values::class, 'getTrue']);
 		elgg_register_plugin_hook_handler('uses:autosave', 'object:blog', [\Elgg\Values::class, 'getTrue']);
 
+		elgg_register_plugin_hook_handler('fields', 'object:blog', SetupBlogFields::class);
+		
 		elgg_unextend_view('object/elements/imprint/contents', 'blog/imprint/status');
 	}
 
